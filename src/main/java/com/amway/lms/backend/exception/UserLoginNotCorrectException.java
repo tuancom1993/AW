@@ -1,0 +1,36 @@
+package com.amway.lms.backend.exception;
+
+import com.amway.lms.backend.common.ErrorCode;
+
+public class UserLoginNotCorrectException extends Exception {
+    
+    public static final int CODE = ErrorCode.CODE_USER_LOGIN_NOT_CORRECT_EXCEPTION;
+    public static final String MESSAGE = ErrorCode.MSG_USER_LOGIN_NOT_CORRECT_EXCEPTION;
+
+    public UserLoginNotCorrectException() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+    public UserLoginNotCorrectException(String message, Throwable cause, boolean enableSuppression,
+            boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+        // TODO Auto-generated constructor stub
+    }
+
+    public UserLoginNotCorrectException(String message, Throwable cause) {
+        super(message, cause);
+        // TODO Auto-generated constructor stub
+    }
+
+    public UserLoginNotCorrectException(String message) {
+        super(message);
+        // TODO Auto-generated constructor stub
+    }
+
+    public UserLoginNotCorrectException(Throwable cause) {
+        super(cause);
+        // TODO Auto-generated constructor stub
+    }
+
+}
